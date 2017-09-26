@@ -1,0 +1,118 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+	min-height: 400px;
+   margin-bottom: 100px;
+   clear: both;
+}
+
+.mylogo{
+	max-height: 20px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+.navbar{
+	max-height: auto;
+}
+
+.list-group-item-success{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	max-width: auto;
+}
+
+.list-group-item{
+	outline: 0;
+  border: none;
+	padding: 3px 2px 3px 24px;
+	box-sizing: border-box;
+	display: block;
+	height: 30px;
+}
+
+.jumbotron{
+	display: inline-block;
+	width: 135%;
+	padding-top: 2px;
+}
+
+.hrline{
+	margin-top: 2px;
+}
+
+.panel-color{
+	background-color: #ffffcc;
+}
+
+.menu-panel{
+	height: 95%;
+    width: 210px;
+    float: left;
+    position: fixed!important;
+    overflow-y: scroll;
+    overflow: auto;
+
+}
+
+.list-group-item-success{
+background: #f1f1f1;
+}
+
+#yellow .panel-color{
+	border-left: 6px solid #ffeb3b;
+	background: #ffffcc;
+}
+#yellow .panel{
+	bottom: 10px; 
+}
+
+.panel{
+	margin-top: 20px;
+}
+
+#green .panel-color{
+	background-color: #ddffdd;
+	border-left: 6px solid #4CAF50;
+}
+
+#green .panel-body{
+	font-size: 16px;
+}
+
+.pager{
+	max-width: 1000px;
+}
+
+@media all and (max-width: 1400px) {
+    #container { width: 100%; }
+}
+
+.footer{
+	line-height: 2px;
+	box-sizing:  border-box;
+	display: block;
+	padding: 55px 0;
+	top: 20px;
+
+}
+
+#side-bar .h3{
+	box-sizing: inherit;
+	padding-left: 16px;
+	font-size: 24px;
+
+}
+
+#content .container{
+	padding-left: 100px;
+}
+
+.table-img {
+  border-collapse: separate;
+  border-spacing: 50px 0;
+}
+
+.img-table-data .img-table-header {
+  padding: 10px 10px;
+}
